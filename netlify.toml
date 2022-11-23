@@ -7,7 +7,7 @@ HUGO_ENV = "production"
 NODE_ENV = "production"
 
 [context.deploy-preview]
-command = "git submodule foreach git pull origin master && npm install && hugo -b $DEPLOY_PRIME_URL"
+command = "git submodule foreach git pull origin master && npm install && hugo -b rdbastatuaa.online"
 
 [context.branch-deploy]
-command = "git submodule foreach git pull origin master && npm install && hugo -b $DEPLOY_PRIME_URL"
+command = "git submodule foreach git pull origin master && npm install && hugo -b rdbastatuaa.online"
